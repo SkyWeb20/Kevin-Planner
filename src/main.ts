@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
-import App from './App.vue'
-import { vuetify } from './plugins/vuetify'
-import './style.css'
+import PlannerApp from './planner/PlannerApp.vue'
+import '@mdi/font/css/materialdesignicons.css'
+import './planner.css'
 
-createApp(App).use(vuetify).mount('#app')
+createApp(PlannerApp).mount('#planner-app')
